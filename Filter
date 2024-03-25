@@ -57,4 +57,9 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer #vi
 m.youtube.com##ytm-browse div[tab-identifier="FEsubscriptions"] ytm-video-with-context-renderer:has(.media-item-headline:has-text(/\bvlog\b/i))
 
 google.*##.g:has(a[href*="quora.com"])
+www.google.*##a[href*=".quora."]:upward(1)
+
+
+
+
 
