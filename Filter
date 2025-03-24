@@ -59,7 +59,8 @@ m.youtube.com##ytm-browse div[tab-identifier="FEsubscriptions"] ytm-video-with-c
 google.*##.g:has(a[href*="quora.com"])
 www.google.*##a[href*=".quora."]:upward(1)
 
+google.*##.g:has(a[href*="facebook.com"])
+www.google.*##a[href*=".facebook."]:upward(1)
 
-
-
-
+google.*##.g:has(a[href*="fb.com"])
+www.google.*##a[href*=".fb."]:upward(1)
